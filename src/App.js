@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import './mystyles.css';
 import TopLevelContainer from './TopLevelContainer';

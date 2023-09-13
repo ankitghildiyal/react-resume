@@ -1,3 +1,10 @@
 .experience{
     font-size: 15px;
 }
+
+.center{ 
+    display: flex;
+    height: 250px; 
+    align-items: center;
+    justify-content: center;
+}

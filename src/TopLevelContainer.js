@@ -1,17 +1,20 @@
 import Experiences from "./Experiences";
+import Heading from "./Heading";
 import Skills from "./Skills";
 
 function TopLevelContainer(){
     const sectionHeadingStyling = {fontWeight:"bold", fontSize:"15px", textDecoration:"underline"};
-    //
     return (
-        <div class="container top-buffer">
-            {
-                //Interview - passing variable as props
-                //Interview - comments adding in jsx
-            }
-            <Skills style={sectionHeadingStyling}/> 
-            <Experiences style={sectionHeadingStyling}/>
+        <div className="container">
+            <div className="row">
+                <Heading/>
+            </div>
+            <div className="row">
+                <Skills style={sectionHeadingStyling}/> 
+            </div>
+            <div className="row">
+                <Experiences style={sectionHeadingStyling}/>
+            </div>
         </div>
     );
 }

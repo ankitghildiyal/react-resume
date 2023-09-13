@@ -10,8 +10,8 @@ function Skills(props){
                     Key Skills
                 </div>
             </div>
-            <div className="row bottom-buffer">
-                <div className="col-md-12 regular-font-size">
+            <div className="row bottom-buffer experience">
+                <div className="col-md-12">
                     <ul>
                         <li>JAVA 14, Spring Boot, Spring Webflux, Kafka, RabbitMQ, microservices architecture, Docker.</li> 
                         <li>Python.</li> 
